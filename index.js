@@ -56,7 +56,7 @@ function showError(error) {
 }
 
 function getSearchWeather(city) {
-    let api = ` `
+    let api = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key} `
 
 
 
